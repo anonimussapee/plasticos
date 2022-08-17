@@ -1,0 +1,39 @@
+#busqueda_id, #btn_buscar{
+    height: 20px;
+    margin: 2px;
+}
+#busqueda_id{
+    width: 300px;
+}
+.cont-nav{
+    padding: 10px;
+    background-color: LightSeaGreen;
+    display:flexbox ;
+}
+div  a{
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+body{
+    margin: 0px;
+}
+figure img{
+    width: 400px;
+    height: 200px;
+}
+figure{
+    display:flexbox;
+}
+table th,td{
+    padding: 3px;
+   border: black 1px solid; 
+}
+#div_scroll{
+    overflow: scroll;
+    height: 300px;
+    width: 500px;
+}
+h2{
+ text-align: center ;
+}
