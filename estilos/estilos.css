@@ -18,22 +18,19 @@ div  a{
 body{
     margin: 0px;
 }
-figure img{
-    width: 400px;
-    height: 200px;
-}
-figure{
-    display:flexbox;
-}
 table th,td{
     padding: 3px;
    border: black 1px solid; 
 }
 #div_scroll{
     overflow: scroll;
-    height: 300px;
-    width: 500px;
+    height: 550px;
+    width: 600px;
 }
 h2{
  text-align: center ;
+}
+#container_flex{
+    display:flex;
+
 }
