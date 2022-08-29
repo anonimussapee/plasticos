@@ -19,7 +19,8 @@ export function mostrar_en_tabla(donde){
 	donde.innerHTML=th;}
 }
 export function busqueda(donde,palabra){
-	var tc="<tr><th>Nombre producto</th><th>Cantidad</th><th>Costo</th><th>Ofertas</th></tr>";
+	var tc="<h2>Tu busqueda esta aqui</h2>";
+	 tc+="<tr><th>Nombre producto</th><th>Cantidad</th><th>Costo</th><th>Ofertas</th></tr>";
 	for(let item of stock){
 		if(item.producto.includes(palabra)){
 		tc +="<tr><td>"+item.producto+"</td><td>"+item.cant+"</td><td>"+item.costo+"</td><td>"+item?.oferta+"</td></tr>";

@@ -22,11 +22,7 @@ table th,td{
     padding: 3px;
    border: black 1px solid; 
 }
-#div_scroll{
-    overflow: scroll;
-    height: 550px;
-    width: 600px;
-}
+
 h2{
  text-align: center ;
 }
@@ -34,3 +30,23 @@ h2{
     display:flex;
 
 }
+#div_scroll, #div_scroll_2{
+    overflow: scroll;
+    height: 550px;
+    width: 50%;
+}
+@media screen and (max-width: 500px ) {
+    #container_flex{
+        display:block;
+    
+    }
+    #div_scroll, #div_scroll_2{
+    
+    height: 100%;
+    width: 100%;
+}
+.cont-nav{
+    position:fixed;
+}
+}
+
